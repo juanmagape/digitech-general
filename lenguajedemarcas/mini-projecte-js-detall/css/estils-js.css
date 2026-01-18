@@ -1,0 +1,55 @@
+/* estils-js.css: estil senzill per a la vista amb JS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.error {
+  color: #b00020;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}

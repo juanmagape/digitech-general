@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+  <joc id="G001">
+    <titol>Knight</titol>
+    <genere>Metroidvania</genere>
+    <any>2017</any>
+    <plataforma>PC</plataforma>
+    <preu>15.99</preu>
+    <valoracio>9.5</valoracio>
+    <descripcio>
+      Joc d'acció i exploració en 2D ambientat en un món subterrani ple d'insectes i misteris.
+    </descripcio>
+  </joc>
+
+  <joc id="G002">
+    <titol>The Witcher 3: Wild Hunt</titol>
+    <genere>RPG</genere>
+    <plataforma>PC</plataforma>
+    <preu>29.99</preu>
+    <valoracio>9.7</valoracio>
+    <descripcio>
+      Joc de rol en un món obert on controles Geralt de Rivia, un caça-monstres professional.
+    </descripcio>
+  </joc>
+
+  <joc id="G003">
+    <titol>Celeste</titol>
+    <genere>Plataformes</genere>
+    <any>2018</any>
+    <plataforma>PC</plataforma>
+    <preu>19.99</preu>
+    <valoracio>9.0</valoracio>
+    <descripcio>
+      Joc de plataformes amb una dificultat elevada i una història sobre superar els propis límits.
+    </descripcio>
+  </joc>
+
+  <joc id="G004">
+    <titol>Stardew Valley</titol>
+    <genere>Simulació / RPG</genere>
+    <any>2016</any>
+    <plataforma>PC</plataforma>
+    <preu>13.99</preu>
+    <valoracio>9.2</valoracio>
+    <descripcio>
+      Simulador de granja on també podràs explorar mines, parlar amb veïns i construir relacions.
+    </descripcio>
+  </joc>
+
+  <joc id="G005">
+    <titol>Hades</titol>
+    <genere>Roguelike / Acció</genere>
+    <any>2020</any>
+    <plataforma>PC</plataforma>
+    <preu>24.99</preu>
+    <valoracio>9.4</valoracio>
+    <descripcio>
+      Joc d'acció roguelike ambientat en la mitologia grega, on intentes escapar de l'inframón.
+    </descripcio>
+  </joc>
+
+  <joc id="G006">
+    <titol>Minecraft</titol>
+    <genere>Sandbox</genere>
+    <any>2011</any>
+    <plataforma>PC</plataforma>
+    <preu>23.95</preu>
+    <valoracio>9.3</valoracio>
+    <descripcio>
+      Joc de construcció i supervivència en un món de blocs on pots crear gairebé qualsevol cosa.
+    </descripcio>
+  </joc>
+</cataleg>

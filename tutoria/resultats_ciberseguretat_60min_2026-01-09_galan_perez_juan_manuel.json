@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "data": "2026-01-09",
+    "assignment": "ciberseguretat_60min_v1"
+  },
+  "cicle": "DAM",
+  "student1": {
+    "firstname": "Juan Manuel",
+    "lastname": "Galán Pérez",
+    "email": "juanmagalan2007@digitechfp.com",
+    "display": "Galán Pérez, Juan Manuel"
+  },
+  "student2": null,
+  "pair": false,
+  "answers": {
+    "mc_q1": "c",
+    "mc_q2": "a",
+    "mc_q3": "a",
+    "mc_q4": "b",
+    "mc_q5": "b",
+    "mc_q6": "a",
+    "url_01": "riscosa",
+    "url_02": "riscosa",
+    "url_03": "segura",
+    "url_04": "riscosa",
+    "url_05": "segura",
+    "url_06": "riscosa",
+    "url_07": "riscosa",
+    "url_08": "segura",
+    "pass1": "Pomes-I-Peres-Al-Cistell!2026",
+    "pass2": "Viatjar-En-Tren-És-Molt-Ràpid*07",
+    "pass3": "&La-Música-Sona-Molt-Fort-100",
+    "backup_plan": "b",
+    "clues_email": [
+      "from_mismatch",
+      "urgent_threat",
+      "odd_attachments",
+      "typos",
+      "spoofed_link",
+      "gift_cards"
+    ],
+    "open_plan": "Activar el doble factor (MFA) mitjançant una aplicació per afegir una capa extra de seguretat.\n\nFer servir un gestor de contrasenyes per crear claus úniques a cada lloc.\n\nHabilitar les alertes d'inici de sessió per rebre avisos immediats sobre accessos nous.\n\nMantenir les aplicacions actualitzades per corregir ràpidament qualsevol error o vulnerabilitat."
+  },
+  "extras": {
+    "selected": [
+      "EX2",
+      "EX3"
+    ],
+    "EX2": {
+      "ex2_q1": "185.34.12.77",
+      "ex2_q2": "laia",
+      "ex2_q3": "4",
+      "ex2_q4": "force_pw_reset",
+      "ex2_q5": "normal"
+    },
+    "EX3": {
+      "mfa": "App d’autenticació",
+      "manager": "Bitwarden",
+      "recovery": "yes",
+      "alerts": "yes",
+      "plan": "El meu pla de seguretat consisteix a activar l'autenticació de doble factor (MFA) mitjançant una aplicació al mòbil per evitar riscos amb el duplicat de SIM. Utilitzaré Bitwarden com a gestor de contrasenyes per crear i guardar frases de pas úniques i robustes de més de 16 caràcters. També activaré les alertes de seguretat al correu electrònic per rebre avisos d'accessos desconeguts i revisaré periòdicament els dispositius connectats per mantenir el compte totalment protegit."
+    }
+  }
+}

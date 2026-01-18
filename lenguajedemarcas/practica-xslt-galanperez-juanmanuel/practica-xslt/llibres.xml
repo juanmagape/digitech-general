@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="llibres.xsl"?>
+<llibres>
+  <llibre>
+    <titol>Clean Code</titol>
+    <autor>Robert C. Martin</autor>
+    <preu>32</preu>
+  </llibre>
+  <llibre>
+    <titol>Effective Java</titol>
+    <autor>Joshua Bloch</autor>
+    <preu>45</preu>
+  </llibre>
+</llibres>

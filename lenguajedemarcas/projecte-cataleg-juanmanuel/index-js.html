@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Catàleg Geek (XML + JavaScript)</title>
+  <link rel="stylesheet" href="estils-js.css">
+</head>
+<body>
+  <header>
+    <h1>Catàleg Geek</h1>
+  </header>
+
+  <main>
+    <p id="missatge-error" class="error"></p>
+
+    <table id="taula-jocs">
+      <thead>
+        <tr>
+          <th>Codi</th>
+          <th>Títol</th>
+          <th>Gènere</th>
+          <th>Any</th>
+          <th>Plataforma</th>
+          <th>Preu (€)</th>
+          <th>Valoració</th>
+          <th>Descripció</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Les files es generaran amb JS -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p><small>Perquè funcioni el <code>fetch</code> cal obrir aquesta pàgina amb un servidor local (Live Server, http.server, etc.).</small></p>
+  </footer>
+
+  <script src="carrega-xml.js"></script>
+</body>
+</html>

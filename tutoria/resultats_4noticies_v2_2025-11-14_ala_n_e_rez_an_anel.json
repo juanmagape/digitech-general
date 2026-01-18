@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "data": "2025-11-14",
+    "combo_form": "4 notícies tecnologia (tria’n almenys 2) — v2"
+  },
+  "selected": {
+    "nvidia": false,
+    "ai_act": false,
+    "suncatcher": true,
+    "starfinder": true
+  },
+  "student": {
+    "firstname": "Juan Manuel",
+    "lastname": "Galán Pérez",
+    "email": "juanmagalan2007@digitechfp.com",
+    "display": "Galán Pérez, Juan Manuel"
+  },
+  "answers": {
+    "suncatcher": {
+      "sc_q1": "b",
+      "sc_q2": "a",
+      "sc_q3": "b",
+      "sc_q4": "a",
+      "sc_q5": "b",
+      "sc_q6": "false",
+      "sc_q7": "true",
+      "sc_q8": "El perill de col·lisions i la creixent generació de brossa espacial, que pot afectar greument l’òrbita baixa terrestre.",
+      "sc_q9": "Ubicar data centers y en aquests data centers utilitzar refrigeració amb aire ambient i energies renovables per reduir consum.",
+      "sc_q10": "Google explora enviar TPUs a satèl·lits alimentats amb energia solar contínua per reduir el consum energètic creixent de la IA. El projecte presenta reptes econòmics, riscos de brossa espacial i emissions dels llançaments.\n\nÉs una idea innovadora i potent, però tot i que el concepte és atractiu, dubto que arribi a materialitzar-se al menys aviat: podria resultar massa costós i, sobretot, afegir riscos importants per a l'entorn espacial, amb tota la brossa espacial.\n"
+    },
+    "starfinder": {
+      "sf_q1": "b",
+      "sf_q2": "a",
+      "sf_q3": "b",
+      "sf_q4": "a",
+      "sf_q5": "a",
+      "sf_q6": "false",
+      "sf_q7": "b",
+      "sf_q8": "1 - El número de seguidors que té la marca Starfinder.\n2 - Experiencia dels desenvolupadors y tota la dedicació de l'empresa que l'ha desenvolupat.",
+      "sf_q9": "És un videojoc de rol en què els jugadors fan una tripulació que, mitjançant les seves decisions, intenten evitar la destrucció de la galàxia",
+      "sf_q10": "El projecte ha tingut un suport extraordinari, superant de llarg l’objectiu inicial i demostrant que la comunitat de Starfinder té molta força. El joc combina narrativa, eleccions conseqüents i un univers de l'espai interesant.\n\nStarfinder sembla un joc amb bona història i mecàniques interessants, però potser no aconseguirà la visibilitat que necessita. Avui en dia hi ha molts jocs que arriben amb gran expectació i acaben sense èxit."
+    }
+  }
+}

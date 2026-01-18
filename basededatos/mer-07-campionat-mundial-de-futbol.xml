@@ -1,0 +1,390 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.1.0" pages="2">
+  <diagram id="page-1" name="MER-7-Campionat-mundial-de-futbol">
+    <mxGraphModel dx="1681" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rel-pertany-equip" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="pertany" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-juga" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="juga" vertex="1">
+          <mxGeometry height="60" width="100" x="630" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-local" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="local" vertex="1">
+          <mxGeometry height="60" width="100" x="490" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-visitant" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="visitant" vertex="1">
+          <mxGeometry height="60" width="100" x="480" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-arbitra" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="arbitra" vertex="1">
+          <mxGeometry height="60" width="110" x="880" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="grp-EQUIP" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="320" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ent-EQUIP" parent="grp-EQUIP" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;EQUIP&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-id-equip" parent="grp-EQUIP" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_equip&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-nom-equip" parent="grp-EQUIP" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="nom_equip" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-pais-equip" parent="grp-EQUIP" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="pais" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-id-equip" edge="1" parent="grp-EQUIP" source="attr-id-equip" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-nom-equip" edge="1" parent="grp-EQUIP" source="attr-nom-equip" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-pais-equip" edge="1" parent="grp-EQUIP" source="attr-pais-equip" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grp-JUGADOR" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="340" x="50" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ent-JUGADOR" parent="grp-JUGADOR" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;JUGADOR&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="190" y="-580" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-id-jugador" parent="grp-JUGADOR" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_jugador&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="130" x="20" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-nom-jugador" parent="grp-JUGADOR" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="nom_jugador" vertex="1">
+          <mxGeometry height="26" width="130" x="20" y="-590" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-dorsal" parent="grp-JUGADOR" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="dorsal" vertex="1">
+          <mxGeometry height="26" width="130" x="20" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-id-jugador" edge="1" parent="grp-JUGADOR" source="attr-id-jugador" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-JUGADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-nom-jugador" edge="1" parent="grp-JUGADOR" source="attr-nom-jugador" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-JUGADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-dorsal" edge="1" parent="grp-JUGADOR" source="attr-dorsal" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-JUGADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rel-pertany-equip-jugador" edge="1" parent="1" source="rel-pertany-equip" style="html=1;rounded=0;endArrow=ERmandOne;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-JUGADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card-rel-pertany-equip-jugador" connectable="0" parent="edge-rel-pertany-equip-jugador" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,1)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="20" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-pertany-equip-equip" edge="1" parent="1" source="rel-pertany-equip" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="210" />
+              <mxPoint x="300" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-pertany-equip-equip" connectable="0" parent="edge-rel-pertany-equip-equip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="-20" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-juga-jugador" edge="1" parent="1" source="rel-juga" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-JUGADOR" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-juga-jugador" connectable="0" parent="edge-rel-juga-jugador" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="-98" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-juga-partit" edge="1" parent="1" source="rel-juga" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="150" />
+              <mxPoint x="680" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-juga-partit" connectable="0" parent="edge-rel-juga-partit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-attr-gols-local" edge="1" parent="1" source="attr-gols-local" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="rel-local" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rel-local-partit" edge="1" parent="1" source="rel-local" style="html=1;rounded=0;endArrow=ERmandOne;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="240" />
+              <mxPoint x="630" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-local-partit" connectable="0" parent="edge-rel-local-partit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,1)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="8" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-local-equip" edge="1" parent="1" source="rel-local" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-local-equip" connectable="0" parent="edge-rel-local-equip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="attr-gols-visitant" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="gols_visitant" vertex="1">
+          <mxGeometry height="26" width="110" x="550" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-gols-visitant" edge="1" parent="1" source="attr-gols-visitant" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="rel-visitant" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rel-visitant-partit" edge="1" parent="1" source="rel-visitant" style="html=1;rounded=0;endArrow=ERmandOne;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-visitant-partit" connectable="0" parent="edge-rel-visitant-partit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,1)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="1" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-visitant-equip" edge="1" parent="1" source="rel-visitant" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-EQUIP" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="320" />
+              <mxPoint x="330" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-visitant-equip" connectable="0" parent="edge-rel-visitant-equip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="-38" y="-55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="attr-funcio" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="funcio" vertex="1">
+          <mxGeometry height="26" width="100" x="940" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-funcio" edge="1" parent="1" source="attr-funcio" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="rel-arbitra" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rel-arbitra-partit" edge="1" parent="1" source="rel-arbitra" style="html=1;rounded=0;endArrow=ERoneToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-arbitra-partit" connectable="0" parent="edge-rel-arbitra-partit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-arbitra-collegiat" edge="1" parent="1" source="rel-arbitra" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;" target="ent-COLLEGIAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card-rel-arbitra-collegiat" connectable="0" parent="edge-rel-arbitra-collegiat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="1" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-rel-fase-partit" edge="1" parent="1" source="rel-fase" style="html=1;rounded=0;endArrow=ERmandOne;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card-rel-fase-partit" connectable="0" parent="edge-rel-fase-partit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,1)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ent-COLLEGIAT" parent="1" style="whiteSpace=wrap;html=1;align=center;container=0;" value="&lt;b&gt;COL·LEGIAT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="1040" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-id-collegiat" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;container=0;" value="&lt;b&gt;id_collegiat&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="140" x="1210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-nom-collegiat" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;container=0;" value="nom_collegiat" vertex="1">
+          <mxGeometry height="26" width="140" x="1210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-categoria" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;container=0;" value="categoria" vertex="1">
+          <mxGeometry height="26" width="140" x="1210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-id-collegiat" edge="1" parent="1" source="attr-id-collegiat" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-COLLEGIAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-nom-collegiat" edge="1" parent="1" source="attr-nom-collegiat" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-COLLEGIAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-categoria" edge="1" parent="1" source="attr-categoria" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-COLLEGIAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ent-PARTIT" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;PARTIT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="660" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-id-partit" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_partit&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="130" x="690" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-data-partit" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="data" vertex="1">
+          <mxGeometry height="26" width="130" x="750" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-seu-partit" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="seu" vertex="1">
+          <mxGeometry height="26" width="130" x="780" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-id-partit" edge="1" parent="1" source="attr-id-partit" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-data-partit" edge="1" parent="1" source="attr-data-partit" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-seu-partit" edge="1" parent="1" source="attr-seu-partit" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-PARTIT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-gols-local" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="gols_local" vertex="1">
+          <mxGeometry height="26" width="100" x="400" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="ent-FASE" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;FASE&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="870" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-id-fase" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_fase&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="120" x="1040" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-nom-fase" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="nom" vertex="1">
+          <mxGeometry height="26" width="120" x="1040" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr-ronda" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="ronda" vertex="1">
+          <mxGeometry height="26" width="120" x="1040" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-id-fase" edge="1" parent="1" source="attr-id-fase" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-FASE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-nom-fase" edge="1" parent="1" source="attr-nom-fase" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-FASE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-attr-ronda" edge="1" parent="1" source="attr-ronda" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="ent-FASE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-fase" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="pertany_fase" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rel-fase-fase" edge="1" parent="1" source="rel-fase" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;" target="ent-FASE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card-rel-fase-fase" connectable="0" parent="edge-rel-fase-fase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GGnOO6bLAE_Pe4ANGO8R" name="Page-2">
+    <mxGraphModel dx="928" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-2" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="disputa" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="320" x="20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-5" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;EQUIP&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-6" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_equip&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-7" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="nom_equip" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-8" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="pais" vertex="1">
+          <mxGeometry height="26" width="120" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-9" edge="1" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" source="i9Bgi6Uuvg7XR2g1z3Fy-6" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-10" edge="1" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" source="i9Bgi6Uuvg7XR2g1z3Fy-7" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-11" edge="1" parent="i9Bgi6Uuvg7XR2g1z3Fy-4" source="i9Bgi6Uuvg7XR2g1z3Fy-8" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-12" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;PARTIT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="494" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="&lt;b&gt;id_partit&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="130" x="654" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="data" vertex="1">
+          <mxGeometry height="26" width="130" x="654" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="seu" vertex="1">
+          <mxGeometry height="26" width="130" x="654" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-16" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-13" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-17" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-14" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-18" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-15" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="rol" vertex="1">
+          <mxGeometry height="26" width="100" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-24" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-19" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-25" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-2" style="html=1;rounded=0;endArrow=ERoneToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="i9Bgi6Uuvg7XR2g1z3Fy-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="320" />
+              <mxPoint x="510" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-26" connectable="0" parent="i9Bgi6Uuvg7XR2g1z3Fy-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="-2" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-27" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-2" style="html=1;rounded=0;endArrow=ERzeroToMany;endFill=1;startArrow=none;edgeStyle=orthogonalEdgeStyle;" target="i9Bgi6Uuvg7XR2g1z3Fy-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="320" />
+              <mxPoint x="290" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-28" connectable="0" parent="i9Bgi6Uuvg7XR2g1z3Fy-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,n)" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-2" as="geometry">
+            <mxPoint x="4" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="gols" vertex="1">
+          <mxGeometry height="26" width="110" x="400" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="i9Bgi6Uuvg7XR2g1z3Fy-30" edge="1" parent="1" source="i9Bgi6Uuvg7XR2g1z3Fy-29" style="endArrow=none;startArrow=none;html=1;rounded=0;" target="i9Bgi6Uuvg7XR2g1z3Fy-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rv7_8ofeV-T2D4sEttlx-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="Cada partit es juga entre exactament 2 equips (local i visitant)." vertex="1">
+          <mxGeometry height="40" width="170" x="444" y="363" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

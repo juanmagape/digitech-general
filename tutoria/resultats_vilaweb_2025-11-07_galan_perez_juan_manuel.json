@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "curs": "2025-2026",
+    "centre": "Digitechfp",
+    "data": "2025-11-07",
+    "article_title": "Starfinder: Afterlight (VilaWeb)",
+    "article_url": "https://www.vilaweb.cat/noticies/starfinder-afterlight-videojoc-catala-rol/"
+  },
+  "student": {
+    "firstname": "Juan Manuel",
+    "lastname": "Galán Pérez",
+    "email": "juanmagalan2007@digitechfp.com",
+    "display": "Galán Pérez, Juan Manuel"
+  },
+  "answers": {
+    "q1": "b",
+    "q2": "a",
+    "q3": "a",
+    "q4": "a",
+    "q5": "b",
+    "q6": "false",
+    "q7": "a",
+    "q8": "L'èxit es deu a tots els fans que tenen i a més a més també han tingut èxit gràcies a la dedicació de l'empresa que l'ha desenvolupat.",
+    "q9": "És un videojoc de rol en què els jugadors fan una tripulació que, mitjançant les seves decisions, intenten evitar la destrucció de la galàxia.",
+    "q10": "Starfinder sembla un joc amb bona història i mecàniques interessants, però potser no aconseguirà la visibilitat que necessita. Avui en dia hi ha molts jocs que arriben amb gran expectació i acaben sense èxit."
+  },
+  "score_auto": {
+    "got": 7,
+    "total": 7
+  },
+  "percent_auto": 100
+}

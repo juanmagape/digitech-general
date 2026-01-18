@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "exam": "0483-form-virtualitzacio-cli-docker",
+    "version": 1,
+    "type": "final"
+  },
+  "idAlumne": "juanmagalan2007@digitechfp.com",
+  "nomAlumne": "Juan Manuel Galán Pérez (juanmagalan2007@digitechfp.com)",
+  "timestamp": "2025-12-02T13:05:55.989Z",
+  "answers": {
+    "q1": {
+      "type": "single",
+      "value": "b"
+    },
+    "q2": {
+      "type": "single",
+      "value": "b"
+    },
+    "q3": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b"
+      ]
+    },
+    "q4": {
+      "type": "tf",
+      "value": "true"
+    },
+    "q5": {
+      "type": "single",
+      "value": "b"
+    },
+    "q6": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q7": {
+      "type": "single",
+      "value": "c"
+    },
+    "q8": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q9": {
+      "type": "open",
+      "value": "el tipus de xarxa NAT, el que fa es que utilitza la red de l'anfritió, però no te cap mena de conexió amb aquest, només te sortida a l'internet. En canvi el mode pont (bridged) el que fa es utilitzar l'adaptador de red directament de l'anfritió i es com si fos un nou dispositiu a la red, té el mateix rang de ip que la maquina anfritiona, y tenen conexió entre ells."
+    },
+    "q10": {
+      "type": "single",
+      "value": "a"
+    },
+    "q11": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q12": {
+      "type": "tf",
+      "value": "true"
+    },
+    "q13": {
+      "type": "single",
+      "value": "c"
+    },
+    "q14": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q15": {
+      "type": "single",
+      "value": "b"
+    },
+    "q16": {
+      "type": "tf",
+      "value": "true"
+    },
+    "q17": {
+      "type": "single",
+      "value": "c"
+    },
+    "q18": {
+      "type": "single",
+      "value": "b"
+    },
+    "q19": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b"
+      ]
+    },
+    "q20": {
+      "type": "single",
+      "value": "b"
+    },
+    "q21": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q22": {
+      "type": "single",
+      "value": "a"
+    },
+    "q23": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q24": {
+      "type": "open",
+      "value": "el CLI CMD es més basic y no té tantas caracteristiques comparant-lo amb Powershell. En el cas de Powershell, aquest té un editor per crear Scripts, a més a més els cmdlets, que permeten per exemple agafar la data, escriure per pantalla, etc."
+    },
+    "q25": {
+      "type": "single",
+      "value": "c"
+    },
+    "q26": {
+      "type": "multi",
+      "value": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "q27": {
+      "type": "open",
+      "value": "docker es un servei que el que fa es treballar amb contenidors sense sistema operatiu, utilitzant els recursos del sistema. Els contenidors son les \"maquines virtuals\", on per exemple es poden executar programes com XAMPP amb la versió que vulguis, normalment la gent ho fa servir per poder treballar y obrir aplicacions amb un entorn que no es el seu y aixì no tenen problemas de haver que desinstalar y tornar a instalar versions diferents de programes."
+    },
+    "q28": {
+      "type": "open",
+      "value": "el que fa docker es treballar a sobre dels propis recursos de l'ordinador. Al treballar amb el recursos de l'ordinador ja podem tenir un avantatge e inconvenient. Aquests son que Docker utilitza millor el recursos del sistema, llavors es més rápid, i per altra banda, en cas que hi hagi algun problema amb la seguretat de les aplicacions dins dels contenidors, está obert a riscos de gent que vulgui vulnerar els sistemas amb versions mes antigues."
+    }
+  },
+  "signature": "85944ce6"
+}

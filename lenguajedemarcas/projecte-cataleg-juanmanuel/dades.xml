@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+  <joc id="G001">
+    <titol>El guerrero a la sombra del cerezo</titol>
+    <genere>Historia / Acción</genere>
+    <any>2013</any>
+    <plataforma>Paper</plataforma>
+    <preu>18.50</preu>
+    <valoracio>9.2</valoracio>
+    <descripcio>
+        Història ambientada en el Japó medieval, centrada en un samurai que lluita per la seva honra mentre el seu món canvia.
+    </descripcio>
+  </joc>
+
+  <joc id="G002">
+    <titol>La espía del shogun</titol>
+    <genere>Historia / Intriga</genere>
+    <any>2015</any>
+    <plataforma>Paper</plataforma>
+    <preu>17.00</preu>
+    <valoracio>9.0</valoracio>
+    <descripcio>
+      Una dona samurai infiltrada intenta protegir secrets del shogunat mentre esdevé peça clau en conspiracions.
+    </descripcio>
+  </joc>
+
+  <joc id="G003">
+    <titol>La canción del guerrero</titol>
+    <genere>Acción / Aventura</genere>
+    <any>2018</any>
+    <plataforma>Paper</plataforma>
+    <preu>19.50</preu>
+    <valoracio>9.1</valoracio>
+    <descripcio>
+      Un jove aprenent de samurai busca venjança i redempció en un món de traïcions i batalles.    </descripcio>
+  </joc>
+
+  <joc id="G004">
+    <titol>El clan de la grulla</titol>
+    <genere>Historia / Drama</genere>
+    <any>2016</any>
+    <plataforma>Paper</plataforma>
+    <preu>16.75</preu>
+    <valoracio>9.3</valoracio>
+    <descripcio>
+      Relata la lluita interna i externa d’una família samurai per mantenir el seu honor i terres en temps convulsos.    
+      </descripcio>
+  </joc>
+
+  <joc id="G005">
+    <titol>Bajo el cerezo rojo</titol>
+    <genere>Drama / Aventura</genere>
+    <any>2020</any>
+    <plataforma>Paper</plataforma>
+    <preu>18.00</preu>
+    <valoracio>9.0</valoracio>
+    <descripcio>
+      Un mercenari i un noble es veuen atrapats en una guerra de clans mentre cerquen la pau dins del caos.    
+      </descripcio>
+  </joc>
+
+  <joc id="G006">
+    <titol>Sombras del shogun</titol>
+    <genere>Acció / Misteri</genere>
+    <any>2019</any>
+    <plataforma>Paper</plataforma>
+    <preu>17.50</preu>
+    <valoracio>9.1</valoracio>
+    <descripcio>
+      Entre traïcions i conspiracions, un samurai investiga assassinats que amenacen el seu senyor i l’estabilitat del país.    </descripcio>
+  </joc>
+</cataleg>

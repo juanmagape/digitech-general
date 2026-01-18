@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "curs": "2025-2026",
+    "centre": "Digitechfp",
+    "data": "2025-11-07",
+    "article_title": "Data centers d'IA a l'espai (Xataka)",
+    "article_url": "https://www.xataka.com/energia/centros-datos-ia-consumen-demasiada-energia-plan-moonshot-google-llevarlos-al-espacio"
+  },
+  "student": {
+    "firstname": "Juan Manuel",
+    "lastname": "Galán Pérez",
+    "email": "juanmagalan2007@digitechfp.com",
+    "display": "Galán Pérez, Juan Manuel"
+  },
+  "answers": {
+    "q1": "b",
+    "q2": "b",
+    "q3": "a",
+    "q4": "b",
+    "q5": "a",
+    "q6": "b",
+    "q7": "false",
+    "q8": "true",
+    "q9": "SpaceX",
+    "q10": "Les 3 idees principals son les seguents: El consum elèctric dels centres de dades podria duplicarse cap a 2030, Google Proposa enviar els seus TPU per utilitzar energia solar, i els llançaments dels satèl·lits augmenten el risc de brossa espacial.\n\nOpinió: Em sembla una idea interessant el que volen fer, però els reptes que tenen tant econòmics com ambientals podrien fer que no es faci realitat o q sigui dificil fer-ho a gran escala."
+  },
+  "score_auto": {
+    "got": 8,
+    "total": 8
+  },
+  "percent_auto": 100
+}

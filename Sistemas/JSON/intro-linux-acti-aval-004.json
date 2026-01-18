@@ -1,0 +1,112 @@
+{
+  "alumne": {
+    "nom": "Juan Manuel Galán Pérez",
+    "email": "juanmagalan2007@digitechfp.com",
+    "origen": "llistat"
+  },
+  "respostes": {
+    "q01": {
+      "type": "radio",
+      "value": "b",
+      "text": "pwd"
+    },
+    "q02": {
+      "type": "radio",
+      "value": "c",
+      "text": "ls -la"
+    },
+    "q03": {
+      "type": "radio",
+      "value": "b",
+      "text": "mkdir *"
+    },
+    "q04": {
+      "type": "radio",
+      "value": "b",
+      "text": "cp -a"
+    },
+    "q05": {
+      "type": "radio",
+      "value": "a",
+      "text": "mv"
+    },
+    "q06": {
+      "type": "radio",
+      "value": "b",
+      "text": "rm -r"
+    },
+    "q07": {
+      "type": "radio",
+      "value": "a",
+      "text": "touch"
+    },
+    "q08": {
+      "type": "radio",
+      "value": "a",
+      "text": "ln -s"
+    },
+    "q09": {
+      "type": "radio",
+      "value": "a",
+      "text": "cat a.txt b.txt > ab.txt"
+    },
+    "q10": {
+      "type": "radio",
+      "value": "a",
+      "text": "head"
+    },
+    "q11": {
+      "type": "radio",
+      "value": "a",
+      "text": "grep -Rin --color=never 'error' /var/log"
+    },
+    "q12": {
+      "type": "radio",
+      "value": "a",
+      "text": "find . -type f -size +10M -mtime -7"
+    },
+    "q13": {
+      "type": "radio",
+      "value": "b",
+      "text": "sha256sum"
+    },
+    "q14": {
+      "type": "text",
+      "value": "750"
+    },
+    "q15": {
+      "type": "radio",
+      "value": "b",
+      "text": "chown usuari:grup fitxer"
+    },
+    "q16": {
+      "type": "radio",
+      "value": "a",
+      "text": "apt update"
+    },
+    "q17": {
+      "type": "radio",
+      "value": "b",
+      "text": "systemctl enable servei"
+    },
+    "q18": {
+      "type": "radio",
+      "value": "a",
+      "text": "ss -tulpn"
+    },
+    "q19": {
+      "type": "radio",
+      "value": "a",
+      "text": "df -h"
+    },
+    "q20": {
+      "type": "radio",
+      "value": "b",
+      "text": "ssh-keygen -t ed25519 -C 'alumne@centre'"
+    }
+  },
+  "meta": {
+    "activitat": "intro-linux-acti-aval-004",
+    "preguntes": 20
+  }
+}

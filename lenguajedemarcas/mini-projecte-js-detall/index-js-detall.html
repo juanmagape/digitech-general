@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Catàleg Geek (llista + detall)</title>
+  <link rel="stylesheet" href="./css/estils-js.css">
+</head>
+<body>
+  <header>
+    <h1>Catàleg Geek</h1>
+    <p>Exemple: carregar dades des de <code>dades.xml</code> amb JavaScript i enllaç a una vista de detall.</p>
+  </header>
+
+  <main>
+    <p id="missatge-error" class="error"></p>
+
+    <table id="taula-jocs">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Títol</th>
+          <th>Gènere</th>
+          <th>Any</th>
+          <th>Plataforma</th>
+          <th>Preu (€)</th>
+          <th>Valoració</th>
+          <th>Descripció</th>
+          <th>Detall</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Les files es generaran amb JS -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p><small>Perquè funcioni el <code>fetch</code> cal obrir aquest projecte amb un servidor local (Live Server, <code>python -m http.server</code>, etc.).</small></p>
+  </footer>
+  <script src="./js/carrega-xml.js"></script>
+
+</body>
+</html>

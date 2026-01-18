@@ -1,0 +1,60 @@
+{
+  "value": [
+    {
+      "nombre": "Auriculars sense fil T10",
+      "precio": 89.99,
+      "categoria": "Electrònica",
+      "disponibilitat": true,
+      "pesGrams": 150
+    },
+    {
+      "nombre": "Samarreta de Cotó Orgànic",
+      "precio": 25.50,
+      "categoria": "Roba",
+      "disponibilitat": true,
+      "pesGrams": 220
+    },
+    {
+      "nombre": "Cafetera Express Automàtica",
+      "precio": 249.95,
+      "categoria": "Llar",
+      "disponibilitat": false,
+      "pesGrams": 5500
+    },
+    {
+      "nombre": "Llibre 'El Món de Python'",
+      "precio": 19.90,
+      "categoria": "Llibres",
+      "disponibilitat": true,
+      "pesGrams": 650
+    },
+    {
+      "nombre": "Motxilla Ergonòmica 30L",
+      "precio": 55.00,
+      "categoria": "Accessoris",
+      "disponibilitat": true,
+      "pesGrams": 950
+    },
+    {
+      "nombre": "Monitor LED 27 polzades",
+      "precio": 199.99,
+      "categoria": "Electrònica",
+      "disponibilitat": true,
+      "pesGrams": 4200
+    },
+    {
+      "nombre": "Tablet 10 polzades 64GB",
+      "precio": 329.00,
+      "categoria": "Electrònica",
+      "disponibilitat": true,
+      "pesGrams": 480
+    },
+    {
+      "nombre": "Set de Tasses de Porcellana",
+      "precio": 35.50,
+      "categoria": "Llar",
+      "disponibilitat": true,
+      "pesGrams": 1300
+    }
+  ]
+}

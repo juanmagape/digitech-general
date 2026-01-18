@@ -1,0 +1,19 @@
+Inicio de informe de espacio de disco
+ 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.1G  2.6M  3.1G   1% /run
+/dev/nvme0n1p2  937G   44G  846G   5% /
+tmpfs            16G   82M   16G   1% /dev/shm
+tmpfs           5.0M   20K  5.0M   1% /run/lock
+efivarfs        192K  108K   80K  58% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           3.1G   15M  3.1G   1% /run/user/1000
+ 
+---------------------------------------------------
+ 
+Informe de espacio de carpetas
+ 
+2.9M	/home/cargol/Documents/
+7.9G	/home/cargol/Downloads/
+4.0K	/home/cargol/Desktop/
+500K	/home/cargol/Pictures/
