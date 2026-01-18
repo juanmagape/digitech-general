@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa1/Programa1.iml" filepath="$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa1/Programa1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa2/Programa2.iml" filepath="$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa2/Programa2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa3/Programa3.iml" filepath="$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa3/Programa3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa4/Programa4.iml" filepath="$PROJECT_DIR$/ejercicio_mejorarcodigo/Programa4/Programa4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/control-datos/control-datos.iml" filepath="$PROJECT_DIR$/control-datos/control-datos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/digitech-entorno-desarrollo.iml" filepath="$PROJECT_DIR$/.idea/digitech-entorno-desarrollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entornosdesarrollo1/entornosdesarrollo1.iml" filepath="$PROJECT_DIR$/entornosdesarrollo1/entornosdesarrollo1.iml" />
+    </modules>
+  </component>
+</project>

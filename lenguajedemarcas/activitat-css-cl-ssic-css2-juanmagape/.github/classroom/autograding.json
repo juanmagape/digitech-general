@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "HTML valida (html-validate)",
+      "setup": "npm install",
+      "run": "npm run -s test:html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "CSS lint b\u00e0sic (stylelint)",
+      "setup": "",
+      "run": "npm run -s test:css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "No CSS modern (Flex/Grid/vars\u2026)",
+      "setup": "",
+      "run": "bash .github/scripts/banned-features.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 20
+    },
+    {
+      "name": "LVHA (a:link, :visited, :hover, :active)",
+      "setup": "",
+      "run": "bash .github/scripts/require-anchors.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 6
+    },
+    {
+      "name": "@media print present",
+      "setup": "",
+      "run": "bash .github/scripts/require-print.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 4
+    },
+    {
+      "name": "Maquetaci\u00f3 amb floats/position",
+      "setup": "",
+      "run": "bash .github/scripts/require-layout.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 12
+    },
+    {
+      "name": "Taula .dades estilitzada",
+      "setup": "",
+      "run": "bash .github/scripts/require-table.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 8
+    },
+    {
+      "name": "Clearfix / Conteniment",
+      "setup": "",
+      "run": "bash .github/scripts/require-clearfix.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 4
+    },
+    {
+      "name": "Fitxers obligatoris presents",
+      "setup": "",
+      "run": "bash .github/scripts/require-files.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    }
+  ]
+}

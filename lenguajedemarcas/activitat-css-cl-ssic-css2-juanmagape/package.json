@@ -1,0 +1,16 @@
+{
+  "name": "dam-0373-css2-activitat",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test:html": "html-validate --max-warnings 0 index.html",
+    "test:css": "stylelint \"**/*.css\"",
+    "test:rules": "bash .github/scripts/banned-features.sh && bash .github/scripts/require-anchors.sh && bash .github/scripts/require-print.sh && bash .github/scripts/require-layout.sh && bash .github/scripts/require-table.sh && bash .github/scripts/require-clearfix.sh && bash .github/scripts/require-files.sh",
+    "test": "npm run -s test:html && npm run -s test:css && npm run -s test:rules"
+  },
+  "devDependencies": {
+    "html-validate": "^9.3.0",
+    "stylelint": "^16.8.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

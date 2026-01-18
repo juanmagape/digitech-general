@@ -1,0 +1,141 @@
+/* styles.css — completa les seccions seguint l'enunciat */
+/* 1) Reset bàsic i tipografia */
+body {
+  margin: 0; /* Elimina marges */
+  padding: 0; /* Elimina farcits */
+  line-height: 1.4; /* Espai entre línies */
+  font-family: "Verdana", serif; /* Tipus de lletra */
+  color: white; /* Color del text */
+  background-image: url("https://www.panoramaaudiovisual.com/wp-content/uploads/2019/05/ia-2.jpg"); /* Fons amb imatge */
+}
+
+#page {
+  width: 920px; /* Amplada fixa */
+  margin: 0 auto; /* Centrat horitzontal */
+  background-color: #110a36; /* Fons fosc */
+}
+
+/* 2) Capçalera i eslògan */
+#header {
+  background-color: #0e005c; /* Fons blau fosc */
+  text-align: center; /* Text centrat */
+  padding: 30px 20px; /* Espai interior */
+  color: #fff; /* Text blanc */
+}
+
+#header .slogan {
+  background-color: #291988; /* Fons secundari */
+  padding: 15px; /* Espai intern */
+  border-radius: 5px; /* Cantonades arrodonides */
+  font-style: italic; /* Text en cursiva */
+}
+
+/* 3) Menú horitzontal amb llista */
+#nav ul {
+  list-style: none; /* Sense vinyetes */
+  margin: 0; /* Sense marges */
+  padding: 0; /* Sense farcit */
+  background-color: #291988; /* Fons del menú */
+  text-align: center; /* Centrat */
+}
+
+#nav li {
+  display: inline-block; /* Elements en línia */
+  margin: 0; /* Sense marge */
+}
+
+#nav a:link,
+#nav a:visited {
+  text-decoration: none; /* Sense subratllat */
+  color: #ecf0f1; /* Color clar */
+  margin-top: 10px; /* Espai superior */
+  padding: 15px; /* Farcit intern */
+  display: block; /* Bloc complet */
+  margin-bottom: 10px; /* Espai inferior */
+}
+
+#nav a:hover {
+  text-decoration: none; /* Manté sense subratllat */
+  background-color: #0e005c; /* Canvi de fons al passar */
+  border-radius: 10px; /* Cantonades suaus */
+}
+
+#nav a:active {
+  background-color: #291988; /* Color actiu */
+}
+
+/* 4) Dues columnes clàssiques amb floats */
+#main {
+  float: left; /* Columna esquerra */
+  width: 600px; /* Amplada del contingut */
+  padding: 20px; /* Espai intern */
+}
+
+#aside {
+  float: right; /* Columna dreta */
+  width: 200px; /* Amplada lateral */
+  background-color: #291988; /* Fons lateral */
+  margin-top: 30px; /* Espai superior */
+  padding: 20px; /* Farcit intern */
+  margin-right: 20px; /* Espai dret */
+  border-radius: 20px; /* Cantonades arrodonides */
+}
+
+#content {
+  overflow: hidden; /* Evita solapaments de floats */
+}
+
+/* 5) Taula bàsica sense nth-child */
+.dades {
+  border-collapse: collapse; /* Fusiona vores */
+  width: 100%; /* Amplada completa */
+  margin: 20px 0; /* Espai vertical */
+  width: 700px; /* Amplada fixa */
+}
+
+.dades th,
+.dades td {
+  border: 1px solid #291988; /* Vores blaves */
+  padding: 18px; /* Espai intern */
+  text-align: center; /* Text centrat */
+}
+
+.dades th {
+  background: #291988; /* Fons dels encapçalaments */
+  color: #fff; /* Text blanc */
+  font-weight: bold; /* Negreta */
+}
+
+/* 6) Bloc de notícies i llistes */
+.news {
+  list-style: square inside; /* Vinyetes quadrades */
+  padding: 10px; /* Espai intern */
+}
+
+/* 7) Peu */
+#footer {
+  text-align: center; /* Centrat */
+  font-size: 90%; /* Lletra petita */
+  color: #ffffff; /* Text blanc */
+  border-top: 2px solid #ecf0f1; /* Línia superior */
+  padding: 15.5px; /* Farcit intern */
+}
+
+/* 8) Exemple de combinador */
+#main>h2+p.lead {
+  font-style: italic; /* Text en cursiva */
+  font-size: 12px; /* Mida petita */
+  color: #cecece; /* Color gris clar */
+}
+
+/* 9) Impressió */
+@media print {
+  #nav,
+  #aside {
+    display: none; /* Oculta elements */
+  }
+
+  #page {
+    width: auto; /* Amplada automàtica */
+  }
+}
