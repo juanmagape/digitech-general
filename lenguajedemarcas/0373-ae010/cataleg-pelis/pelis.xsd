@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="pelis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="peli" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titol" type="xs:string"/>
+              <xs:element name="director" type="xs:string"/>
+              <xs:element name="durada" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

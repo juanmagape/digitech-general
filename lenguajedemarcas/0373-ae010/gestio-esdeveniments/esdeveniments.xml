@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="esdeveniments.xsl"?>
+
+<esdeveniments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="esdeveniments.xsd">
+    <esdeveniment>
+        <nom>Caiguda del Mur de Berlín</nom>
+        <data>1989-11-09</data>
+        <lloc>Berlín, Alemanya</lloc>
+    </esdeveniment>
+    <esdeveniment>
+        <nom>Primera arribada a la Lluna</nom>
+        <data>1969-07-20</data>
+        <lloc>Luna</lloc>
+    </esdeveniment>
+    <esdeveniment>
+        <nom>Declaració d'Independència dels Estats Units</nom>
+        <data>1776-07-04</data>
+        <lloc>Filadèlfia, EUA</lloc>
+    </esdeveniment>
+</esdeveniments>

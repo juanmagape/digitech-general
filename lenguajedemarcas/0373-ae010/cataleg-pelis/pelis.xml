@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pelis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pelis.xsd">
+    <peli>
+        <titol>Minecraft The Movie</titol>
+        <director>Chicken Jockey</director>
+        <durada>190</durada>
+    </peli>
+    <peli>
+        <titol>Demon Slayer</titol>
+        <director>Jhon Pork</director>
+        <durada>203</durada>
+    </peli>
+    <peli>
+        <titol>FNAF: The movie</titol>
+        <director>Meowl</director>
+        <durada>180</durada>
+    </peli>
+</pelis>

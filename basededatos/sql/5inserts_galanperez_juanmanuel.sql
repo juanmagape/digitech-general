@@ -1,92 +1,91 @@
-INSERT INTO jugador
+INSERT INTO JUGADORS (nom_usuari, email, data_registre)
 VALUES 
-    (NULL, "borja", "cargol@treu.com", 2026-01-15),
-    (NULL, "ignacho", "ignacho@treu.com", 2026-01-15),
-    (NULL, "albertron", "albertron@treu.com", 2026-01-15),
-    (NULL, "manzaneras", "manzaneras@treu.com", 2026-01-15),
-    (NULL, "narizon", "narizon@treu.com", 2026-01-15);
+    ("borja", "cargol@treu.com", "2026-01-15"),
+    ("ignacho", "ignacho@treu.com", "2026-01-15"),
+    ("albertron", "albertron@treu.com", "2026-01-15"),
+    ("manzaneras", "manzaneras@treu.com", "2026-01-15"),
+    ("narizon", "narizon@treu.com", "2026-01-15");
 
-
-INSERT INTO personatge
+INSERT INTO PERSONATGES (nom_personatge, nivell, classe, id_jugador)
 VALUES
-    (NULL, "kratos", 10, "Dios", 
+    ("kratos", 10, "Dios", 
     (SELECT id_jugador
-    FROM jugador
+    FROM JUGADORS
     WHERE nom_usuari = "borja")),
-    (NULL, "hollow", 3, "Melee",
+    ("hollow", 3, "Melee",
     (SELECT id_jugador
-    FROM jugador
+    FROM JUGADORS
     WHERE nom_usuari = "ignacho")),
-    (NULL, "knight", 5, "Melee", 
+    ("knight", 5, "Melee", 
     (SELECT id_jugador
-    FROM jugador
+    FROM JUGADORS
     WHERE nom_usuari = "albertron")),
-    (NULL, "zeus", 13, "Dios", 
+    ("zeus", 13, "Dios", 
     (SELECT id_jugador
-    FROM jugador
+    FROM JUGADORS
     WHERE nom_usuari = "manzaneras")),
-    (NULL, "pikachu", 4, "Pokemon", 
+    ("pikachu", 4, "Pokemon", 
     (SELECT id_jugador
-    FROM jugador
+    FROM JUGADORS
     WHERE nom_usuari = "narizon"));
 
-INSERT INTO partida
+INSERT INTO PARTIDES  (data_hora_inici, durada_minuts)
 VALUES 
-    (NULL, 2026-01-15, 340),
-    (NULL, 2026-01-15, 640),
-    (NULL, 2026-01-15, 90),
-    (NULL, 2026-01-15, 30),
-    (NULL, 2026-01-15, 230);
+    ('2026-01-10 10:00:00', 120),
+    ('2026-01-10 16:30:00', 90),
+    ('2026-01-10 18:00:00', 60),
+    ('2026-01-10 20:15:00', 45),
+    ('2026-01-10 22:00:00', 150);
 
-INSERT INTO participa
+INSERT INTO PARTICIPACIONS (id_jugador, id_partida, puntuacio)
 VALUES
     (
         (SELECT id_jugador
-        FROM jugador
+        FROM JUGADORS
         WHERE nom_usuari = "borja"),
 
         (SELECT id_partida
-        FROM partida
-        WHERE data_hora_inici = 2026-01-15 AND durada_minuts = 340),
+        FROM PARTIDES
+        WHERE data_hora_inici = "2026-01-10 10:00:00" AND durada_minuts = 120),
         1002
     ),
         (
         (SELECT id_jugador
-        FROM jugador
+        FROM JUGADORS
         WHERE nom_usuari = "ignacho"),
 
         (SELECT id_partida
-        FROM partida
-        WHERE data_hora_inici = 2026-01-15 AND durada_minuts = 640),
+        FROM PARTIDES
+        WHERE data_hora_inici = "2026-01-10 16:30:00" AND durada_minuts = 90),
         3047
     ),
         (
         (SELECT id_jugador
-        FROM jugador
+        FROM JUGADORS
         WHERE nom_usuari = "albertron"),
 
         (SELECT id_partida
-        FROM partida
-        WHERE data_hora_inici = 2026-01-15 AND durada_minuts = 90),
+        FROM PARTIDES
+        WHERE data_hora_inici = "2026-01-10 18:00:00" AND durada_minuts = 60),
         180
     ),
         (
         (SELECT id_jugador
-        FROM jugador
+        FROM JUGADORS
         WHERE nom_usuari = "manzaneras"),
 
         (SELECT id_partida
-        FROM partida
-        WHERE data_hora_inici = 2026-01-15 AND durada_minuts = 30),
+        FROM PARTIDES
+        WHERE data_hora_inici = "2026-01-10 20:15:00" AND durada_minuts = 45),
         41
     ),
         (
         (SELECT id_jugador
-        FROM jugador
+        FROM JUGADORS
         WHERE nom_usuari = "narizon"),
 
         (SELECT id_partida
-        FROM partida
-        WHERE data_hora_inici = 2026-01-15 AND durada_minuts = 230),
+        FROM PARTIDES
+        WHERE data_hora_inici = "2026-01-10 22:00:00" AND durada_minuts = 150),
         724
     );
