@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "exam": "0483-form-virtualitzacio-cli-docker",
+    "version": 1,
+    "type": "final"
+  },
+  "idAlumne": "juanmagalan2007@digitechfp.com",
+  "nomAlumne": "Juan Manuel Galán Pérez (juanmagalan2007@digitechfp.com)",
+  "timestamp": "2026-01-28T11:15:45.399Z",
+  "answers": {
+    "q1": {
+      "type": "single",
+      "value": "grub"
+    },
+    "q2": {
+      "type": "single",
+      "value": "ubuntu"
+    },
+    "q3": {
+      "type": "open",
+      "value": "10"
+    },
+    "q4": {
+      "type": "single",
+      "value": "/etc/default/grub"
+    },
+    "q5": {
+      "type": "open",
+      "value": "0"
+    },
+    "q6": {
+      "type": "open",
+      "value": "10"
+    },
+    "q7": {
+      "type": "tf",
+      "value": "true"
+    },
+    "q8": {
+      "type": "open",
+      "value": "10"
+    },
+    "q9": {
+      "type": "open",
+      "value": "30"
+    },
+    "q10": {
+      "type": "tf",
+      "value": "true"
+    },
+    "q11": {
+      "type": "single",
+      "value": "grub"
+    },
+    "q12": {
+      "type": "open",
+      "value": "Modificar incorrectament l'arxiu d'arrencada, podria fer que es corrompi el propi sistema d'arrencada i no es pugui accedir a les diferents particions tret que les seleccions en la BIOS manualment."
+    },
+    "q13": {
+      "type": "open",
+      "value": "Si instal·lem un nou Windows en el mateix disc, podria fer que GRUB deixés de funcionar ja que Windows no sap tractar amb altres sistemes."
+    },
+    "ev1": {
+      "type": "open",
+      "value": "galan-0483-ae009-dos-sistemes.png"
+    },
+    "ev2": {
+      "type": "open",
+      "value": "galan-0483-ae009-fitxer-grub.png"
+    },
+    "ev3": {
+      "type": "open",
+      "value": "galan-0483-ae009-conf-win.png"
+    },
+    "q_evidencies": {
+      "type": "tf",
+      "value": "true"
+    }
+  },
+  "signature": "b0a1ffb1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="cas1.xsd">
+  <jugador>
+    <nom>Àlex</nom>
+    <edat>25</edat>
+    <equip>Vermells</equip>
+  </jugador>
+  <jugador>
+    <nom>Marta</nom>
+    <edat>22</edat>
+    <equip>Blaus</equip>
+  </jugador>
+  <jugador>
+    <nom>Pol</nom>
+    <edat>28</edat>
+    <equip>Grocs</equip>
+  </jugador>
+  <jugador>
+    <nom>Laia</nom>
+    <edat>24</edat>
+    <Equip>Vermells</equip>
+  </jugador>
+</jugadors>

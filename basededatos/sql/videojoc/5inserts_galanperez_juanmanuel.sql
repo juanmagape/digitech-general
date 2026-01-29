@@ -89,3 +89,10 @@ VALUES
         WHERE data_hora_inici = "2026-01-10 22:00:00" AND durada_minuts = 150),
         724
     );
+
+
+
+    /* ALTER */
+
+    ALTER TABLE JUGADORS
+    ADD CONSTRAINT uq_jugadors_nom UNIQUE (nom_usuari);

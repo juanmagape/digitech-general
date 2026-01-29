@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<veterinaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="cas2.xsd">
+
+  <mascota>
+    <nom>Rex</nom>
+    <edat>5</edat>
+    <tipus>Gos</tipus>
+  </mascota>
+
+  <mascota>
+    <nom>Mimi</nom>
+    <edat>2</edat>
+    <tipus>Gat</tipus>
+  </mascota>
+
+  <mascota>
+    <nom>Burbu</nom>
+    <edat>1</edat>
+    <tipus>Peix</tipus>
+  </mascota>
+
+  <mascota>
+    <nom>Coki</nom>
+    <edat>3</edat>
+    <tipus>Lloro</tipus>
+  </mascota>
+</veterinaria>
