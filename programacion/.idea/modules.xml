@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/agendaContactosJMGP/agendaContactosJMGP.iml" filepath="$PROJECT_DIR$/agendaContactosJMGP/agendaContactosJMGP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digitech-programacion/digitech-programacion.iml" filepath="$PROJECT_DIR$/digitech-programacion/digitech-programacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/programacion.iml" filepath="$PROJECT_DIR$/.idea/programacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pruebas/pruebas.iml" filepath="$PROJECT_DIR$/pruebas/pruebas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpg_game/rpg_game.iml" filepath="$PROJECT_DIR$/rpg_game/rpg_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tamagotchi/tamagotchi.iml" filepath="$PROJECT_DIR$/tamagotchi/tamagotchi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpv/tpv.iml" filepath="$PROJECT_DIR$/tpv/tpv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tresenraya/tresenraya.iml" filepath="$PROJECT_DIR$/tresenraya/tresenraya.iml" />
+    </modules>
+  </component>
+</project>
