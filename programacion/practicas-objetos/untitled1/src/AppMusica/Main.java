@@ -8,6 +8,11 @@ class Usuario {
     public String[] listaReproduccion;
 
     public Usuario(String nombre, String email, String tipoCuenta, int fechaRegistro, String[] listaReproduccion) {
+        this.nombre = nombre;
+        this.email = email;
+        this.tipoCuenta = tipoCuenta;
+        this.fechaRegistro = fechaRegistro;
+        this.listaReproduccion = listaReproduccion;
     }
 }
 
