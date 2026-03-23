@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhoenixTech — Checkpoint</title>
+
+    <link rel="stylesheet" href="./fitxers/estils.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>PhoenixTech — Checkpoint</h1>
+
+            <p class="subtitle">
+                Respon les 3 preguntes assignades i descarrega el fitxer JSON per pujar-lo a Moodle.
+            </p>
+
+        </div>
+<div class="student-selector">
+
+<label for="studentSelect">
+Selecciona alumne
+</label>
+
+<select id="studentSelect">
+<option value="">-- Escull alumne --</option>
+</select>
+
+</div>
+
+        <div class="controls">
+
+            <button class="primary" id="downloadBtn">
+                Descarrega respostes JSON
+            </button>
+
+
+<div class="info-card">
+
+<div class="info-label">
+Preguntes assignades
+</div>
+
+<div class="info-value" id="lastSelection">
+...
+</div>
+
+</div>
+
+</div>
+
+
+<div id="questionsContainer" class="questions"></div>
+
+<div class="navigation">
+
+<button id="prevBtn" class="secondary">
+← Anterior
+</button>
+
+<button id="nextBtn" class="primary">
+Següent →
+</button>
+
+</div>
+
+    </div>
+
+
+    <script src="./fitxers/control.js"></script>
+
+</body>
+
+</html>

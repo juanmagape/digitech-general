@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "curs": "2025-2026",
+        "promocio": "SMX-2025-2027",
+        "centre": "Digitechfp"
+    },
+    "alumnes": [
+        [
+            {
+                "firstname": "Lexter",
+                "lastname": "Abe Abag",
+                "email": "teralex142@digitechfp.com"
+            },
+            {
+                "firstname": "Berta",
+                "lastname": "Arenas Del Amo",
+                "email": "Berta.arenas2007@digitechfp.com"
+            },
+            {
+                "firstname": "Daniel",
+                "lastname": "Ciurana Jiménez",
+                "email": "itzciujis@digitechfp.com"
+            },
+            {
+                "firstname": "Juan Manuel",
+                "lastname": "Galán Pérez",
+                "email": "juanmagalan2007@digitechfp.com"
+            },
+            {
+                "firstname": "Lem Gerardo",
+                "lastname": "Quilca Rodríguez",
+                "email": "lemquilca22@digitechfp.com"
+            },
+            {
+                "firstname": "Hugo",
+                "lastname": "Gonzalez Ortega",
+                "email": "gonzalezHugoortega@digitechfp.com"
+            },
+            {
+                "firstname": "Hugo",
+                "lastname": "Martínez Santos",
+                "email": "hugomartinez310707@digitechfp.com"
+            },
+            {
+                "firstname": "Denise Andrea",
+                "lastname": "Name Ramírez",
+                "email": "dnameramirez@digitechfp.com"
+            },
+            {
+                "firstname": "David Santiago",
+                "lastname": "Rincón Mendez",
+                "email": "santisalserin.sr@digitechfp.com"
+            },
+            {
+                "firstname": "Carlos",
+                "lastname": "Ruiz Montesinos",
+                "email": "karlosruizmo@digitechfp.com"
+            },
+            {
+                "firstname": "Robinson Javier",
+                "lastname": "Tituaña Criollo",
+                "email": "itsjavii1610@digitechfp.com"
+            }
+        ]
+    ]
+}

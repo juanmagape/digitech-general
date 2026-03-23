@@ -1,0 +1,15 @@
+{
+  "student": "Juan Manuel Galán Pérez",
+  "email": "juanmagalan2007@digitechfp.com",
+  "timestamp": "2026-03-12T08:57:28.481Z",
+  "questions": [
+    3,
+    2,
+    2
+  ],
+  "answers": {
+    "q3": "En el servidor windows 2025, tenemos los roles instalados de IIS para la página web, en el que también hemos instalado PHP para que funcione la consulta a la base de datos, AD DS - Que nos sirve para crear los usuarios y grupos, con este rol lo que conseguimos es que puedan haber usuarios en nuestro sistema, juntamente con (cuando se haga) el login con LDAP, nos servirá para autenticar la entrada a los usuarios en la página. DHCP, que nos sirve para poder asignar automaticamente la IP, puerta de enlace y dns, en los clientes que se conecten a nuestro dominio y por ultimo el DNS, con este lo que conseguimos es que los clientes no tengan que estar poniendo la ip para conectarse al dominio, al poner (en nuestro caso) phoenixtech-g1.local, ya se pueden conectar, sin necesidad de poner la IP.\n\nEn el Linux, tenemos un ubuntu server instalado, en el que dentro hemos instalado MySQL. Con esto lo que conseguimos es tener nuestra base de datos, y también le hemos puesto IP asignada manualmente para que no cambie y nuestro IIS siempre apunte correctamente al servidor.",
+    "q2": "Json es uno de los lenguajes más utilizados, por su sencilla implementación en la web, su facil lectura. Juntamente, gracias a su popularidad, todos los lenguajes se han adaptado y casi todos tienen implementado sus propias formas de tratar con los datos de un JSON. Por ultimo, también utilizarlos es sencillo, ya que utiliza una sintaxis parecida a la de programación, teniendo arrays, objetos, string, numeros, etc.",
+    "q2": "Git es un controlador de versiones local, en concreto es un programa que se instala, con este podemos crear ramas, commits, deshacer cambios etc.\n\nCon github conseguimos alojar los proyectos que hacemos con git en la nube, con github podemos tener una colaboración con otras personas, en las que podemos tener seguidores, ver otros repositorios, y poder sugerir soluciones (issues) a otros repositorios con el fin de mejorar la colaboración y el código entre desarrolladores."
+  }
+}
