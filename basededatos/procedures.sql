@@ -16,7 +16,7 @@ END //
 
 DELIMITER ;
 
-
+-- teamo jide
 DELIMITER //
 
 CREATE PROCEDURE tots_els_clients()
