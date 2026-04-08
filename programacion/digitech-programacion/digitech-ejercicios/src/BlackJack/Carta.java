@@ -1,19 +1,21 @@
 package BlackJack;
 
 public class Carta {
-        private String palo;
-        private String valor;
+    String valor, palo;
 
-        public Carta(String palo, String valor) {
-            this.palo = palo;
-            this.valor = valor;
-        }
+    public Carta(String v, String p) {
+        valor = v;
+        palo = p;
+    }
 
-        public String getPalo() {
-            return palo;
-        }
+    public int getPuntos() {
+        if (valor.matches("J|Q|K")) return 10;
+        if (valor.equals("A")) return 11;
+        return Integer.parseInt(valor);
+    }
 
-        public String getValor() {
-            return valor;
-        }
+    @Override
+    public String toString() {
+        return valor + "-" + palo;
+    }
 }

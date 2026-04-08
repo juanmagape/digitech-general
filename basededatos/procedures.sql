@@ -88,3 +88,45 @@ BEGIN
 END //
 
 DELIMITER ;
+
+
+DELIMITER //
+
+CREATE PROCEDURE fer_comanda_segura(
+    IN p_client_id INT,
+    IN p_producte_id INT,
+    IN p_quantitat INT
+)
+BEGIN
+    DECLARE v_stock INT;
+
+    START TRANSACTION;
+
+    SELECT stock INTO v_stock
+    FROM productes
+    WHERE id = p_producte_id;
+
+    IF v_stock IS NULL THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Producte no existeix';
+
+    ELSEIF v_stock < p_quantitat THEN 
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'No hi ha stock';
+
+    ELSE
+        INSERT INTO comandes (client_id, data)
+        VALUES (p_client_id, NOW());
+
+        UPDATE productes
+        SET stock = stock - p_quantitat
+        WHERE id = p_producte_id;
+
+        COMMIT;
+    END IF;
+
+END //
+
+DELIMITER ;
