@@ -1,0 +1,2 @@
+Nombre: asd - Edad: 0 - Correo: as
+Nombre: asd - Edad: 12 - Correo: usuario@exmaple.com
