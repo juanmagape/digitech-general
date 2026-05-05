@@ -10,14 +10,15 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/Admin/Desktop/trivia" value="3AR1GGlQwMhqZ8eebkQttJIRZCI" />
+      <entry key="_E:/digitech-general/programacion/trivia" value="3DIOxvgBG79G7uGqkFEoJzvZzVO" />
     </persistenceIdMap>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3AR1GGlQwMhqZ8eebkQttJIRZCI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +32,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/trivia",
+    "last_opened_file_path": "E:/digitech-general/programacion/trivia",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,7 +40,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
