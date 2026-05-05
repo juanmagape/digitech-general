@@ -230,9 +230,68 @@ CREATE TABLE detalls_comanda (
 
 
 
+    DELIMITER //
+
+    create procedure afegir_detalls_comanda(
+        IN p_comanda_id INT,
+        IN p_producte_id INT,
+        IN p_quantitat INT
+    )
+    BEGIN 
+        DECLARE v_qtat_cdes INT;
+        DECLARE v_id_producte INT;
+        DECLARE v_stock_producte INT;
+
+        START TRANSACTION;
+
+        SELECT COUNT(*) INTO v_qtat_cdes
+        FROM comandes
+        WHERE id = p_comanda_id;
+
+        SELECT id, stock INTO v_id_producte, v_stock_producte
+        FROM productes
+        WHERE id = p_producte_id;
+
+        IF v_qtat_cdes = 0 THEN
+            ROLLBACK;
+            SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'Comanda no existeix';
+        END IF;
+
+        IF v_id_producte IS NULL THEN
+            ROLLBACK;
+            SIGNAL SQLSTATE '45000' 
+            SET MESSAGE_TEXT = 'El id del producte no existeix';
+        END IF;
+        
+        IF p_quantitat <= 0 THEN
+            ROLLBACK;
+            SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'La quantitat no pot ser 0 o inferior';
+        END IF;
+
+        IF v_stock_producte < p_quantitat THEN
+            ROLLBACK;
+            SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'La quantitat no pot ser mes que stock';
+        END IF;
+
+            UPDATE productes
+            SET stock = stock - p_quantitat
+            WHERE id = p_producte_id;
+
+            INSERT INTO detalls_comanda(id_comanda, id_producte, qtat_venuda) VALUES (v_qtat_cdes, v_id_producte, p_quantitat);
+
+            COMMIT;
+    END //
+
+    DELIMITER ;
+
+
+
 DELIMITER //
 
-create procedure afegir_detalls_comanda(
+create procedure afegir_detalls_comanda_canvia_unitats(
     IN p_comanda_id INT,
     IN p_producte_id INT,
     IN p_quantitat INT
@@ -276,13 +335,141 @@ BEGIN
         SET MESSAGE_TEXT = 'La quantitat no pot ser mes que stock';
     END IF;
 
-        UPDATE productes
-        SET stock = stock - p_quantitat
-        WHERE id = p_producte_id;
+    UPDATE productes
+    SET stock = stock - p_quantitat
+    WHERE id = p_producte_id;
 
-        INSERT INTO detalls_comanda(id_comanda, id_producte, qtat_venuda) VALUES (v_qtat_cdes, v_id_producte, p_quantitat);
+    IF (SELECT COUNT(*) FROM detalls_comanda WHERE id_comanda = p_comanda_id AND id_producte = p_producte_id) > 0 THEN
+        UPDATE detalls_comanda
+        SET qtat_venuda = qtat_venuda + p_quantitat
+        WHERE id_comanda = p_comanda_id AND id_producte = p_producte_id;
+    ELSE
+        INSERT INTO detalls_comanda(id_comanda, id_producte, qtat_venuda) 
+        VALUES (p_comanda_id, v_id_producte, p_quantitat);
+    END IF;
 
-        COMMIT;
+    COMMIT;
+END //
+
+DELIMITER ;
+
+
+
+DELIMITER //
+
+CREATE FUNCTION calcular_base_linia(
+    p_preu DECIMAL(10,2),
+    p_qtat INT,
+    p_descompte INT
+) RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN p_preu * p_qtat * (1 - (p_descompte / 100.0));
+END //
+
+CREATE FUNCTION calcular_import_linia(
+    p_preu DECIMAL(10,2),
+    p_qtat INT,
+    p_descompte INT,
+    p_iva INT
+) RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN p_preu * p_qtat * (1 - (p_descompte / 100.0)) * (1 + (p_iva / 100.0));
+END //
+
+DELIMITER ;
+
+DELIMITER //
+
+DROP PROCEDURE IF EXISTS afegir_detalls_comanda_canvia_unitats //
+
+CREATE PROCEDURE afegir_detalls_comanda_canvia_unitats(
+    IN p_comanda_id INT,
+    IN p_producte_id INT,
+    IN p_quantitat INT
+)
+BEGIN 
+    DECLARE v_qtat_cdes INT;
+    DECLARE v_id_producte INT;
+    DECLARE v_stock_producte INT;
+    
+    DECLARE v_preu_producte DECIMAL(10,2);
+    DECLARE v_base_total DECIMAL(10,2);
+    DECLARE v_import_iva DECIMAL(10,2);
+
+    START TRANSACTION;
+
+    SELECT COUNT(*) INTO v_qtat_cdes
+    FROM comandes
+    WHERE id_cda = p_comanda_id;
+
+    SELECT id_prod, stock_prod INTO v_id_producte, v_stock_producte
+    FROM productes
+    WHERE id_prod = p_producte_id;
+
+    SELECT preu_prod INTO v_preu_producte 
+    FROM productes 
+    WHERE id_prod = p_producte_id;
+
+    IF v_qtat_cdes = 0 THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Comanda no existeix';
+    END IF;
+
+    IF v_id_producte IS NULL THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000' 
+        SET MESSAGE_TEXT = 'El id del producte no existeix';
+    END IF;
+    
+    IF p_quantitat <= 0 THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'La quantitat no pot ser 0 o inferior';
+    END IF;
+
+    IF v_stock_producte < p_quantitat THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'La quantitat no pot ser mes que stock';
+    END IF;
+
+    UPDATE productes
+    SET stock_prod = stock_prod - p_quantitat
+    WHERE id_prod = p_producte_id;
+
+    IF (SELECT COUNT(*) FROM detalls_comanda WHERE id_comanda = p_comanda_id AND id_producte = p_producte_id) > 0 THEN
+        UPDATE detalls_comanda
+        SET qtat_venuda = qtat_venuda + p_quantitat
+        WHERE id_comanda = p_comanda_id AND id_producte = p_producte_id;
+    ELSE
+        INSERT INTO detalls_comanda(id_comanda, id_producte, qtat_venuda) 
+        VALUES (p_comanda_id, v_id_producte, p_quantitat);
+    END IF;
+
+    UPDATE detalls_comanda
+    SET preu_unitari = v_preu_producte,
+        import_linia = calcular_import_linia(v_preu_producte, qtat_venuda, descompte, iva)
+    WHERE id_comanda = p_comanda_id AND id_producte = p_producte_id;
+
+    SELECT 
+        IFNULL(SUM(calcular_base_linia(preu_unitari, qtat_venuda, descompte)), 0),
+        IFNULL(SUM(calcular_base_linia(preu_unitari, qtat_venuda, descompte) * (iva / 100.0)), 0)
+    INTO 
+        v_base_total, 
+        v_import_iva
+    FROM detalls_comanda
+    WHERE id_comanda = p_comanda_id;
+
+    UPDATE comandes
+    SET base_total = v_base_total,
+        import_iva = v_import_iva,
+        import_cda = v_base_total + v_import_iva
+    WHERE id_cda = p_comanda_id;
+
+    COMMIT;
 END //
 
 DELIMITER ;
