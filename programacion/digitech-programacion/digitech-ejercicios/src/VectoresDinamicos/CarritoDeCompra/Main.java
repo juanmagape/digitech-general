@@ -31,6 +31,5 @@ public class Main {
         System.out.println("Ingrese la cantidad del producto:");
         int cantidad = print.nextInt();
 
-
     }
 }
