@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.aplicaciondeltiempo.Controlador">
+   <children>
+      <TextField fx:id="textoCiudad" layoutX="171.0" layoutY="105.0" prefHeight="0.0" prefWidth="194.0" promptText="Ejemplo Ciudad: Barcelona " />
+      <Label layoutX="228.0" layoutY="27.0" text="API DEL TIEMPO" textAlignment="CENTER" textFill="WHITE" underline="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="79.0" text="Introduce el nombre de la ciudad" textFill="WHITE" />
+      <Button layoutX="373.0" layoutY="105.0" mnemonicParsing="false" onAction="#BuscarTiempo" text="Buscar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="284.0" layoutX="168.0" layoutY="162.0" stroke="WHITE" strokeType="INSIDE" width="254.0" />
+      <Label fx:id="datosCiudad" alignment="CENTER" layoutX="170.0" layoutY="162.0" prefHeight="284.0" prefWidth="254.0" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="buscandoCiudad" alignment="CENTER" layoutX="171.0" layoutY="162.0" prefHeight="284.0" prefWidth="254.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="errorCiudad" alignment="CENTER" layoutX="170.0" layoutY="162.0" prefHeight="284.0" prefWidth="254.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
