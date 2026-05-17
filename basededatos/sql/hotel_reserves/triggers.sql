@@ -53,8 +53,6 @@ END $$
 
 DELIMITER ;
 
-
-
 DELIMITER $$
 
 CREATE TRIGGER trg_log_pagaments
